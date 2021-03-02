@@ -176,7 +176,7 @@ export class ArrowView extends PureComponent<ArrowViewProps> {
         <Surface width={screenWidth} height={screenHeight}>
           <Group>
             <Shape d={line} strokeWidth={width} stroke={color} strokeDash={dash} strokeCap={cap} />
-            <Circle center={from} radius={4} color={color} />
+
             <Shape
               d={this.arrowheadPath(from, to, 8)}
               strokeWidth={width}
